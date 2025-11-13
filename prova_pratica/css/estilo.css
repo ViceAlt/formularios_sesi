@@ -29,6 +29,7 @@ fieldset{
 #bar{
     width: 60%;
     padding: 5px;
+    border-radius: 5px;
 }
 #planeta{
     width: 40%;
@@ -44,4 +45,7 @@ button{
     color: white;
     width: 100px;
     height: 40px;
+}
+#obs{
+    resize: none;
 }
