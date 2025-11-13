@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h2>Forumlario Superaçaiajin</h2>
+<form id="dados">
+    <fieldset>
+        <legend>Dados Pessoais:</legend>
+        <p>Nome: </p>
+        <input type="text" id="bar">
+        <p>Idade: </p>
+        <input type="number" id="bar">
+        <p>Telefone: </p>
+        <input type="tel" id="bar">
+        <p>Endereço: </p>
+        <input type="text" id="bar">
+        <p>Planeta de Origem:</p>
+        <select name="planeta" id="planeta">
+            <option>Planeta Terra</option>
+            <option>Planeta Namek</option>
+            <option>Planeta Vegeta</option>
+            <option>Outros</option>
+        </select>
+    </fieldset>
+</form>
+
+<form id="extras">
+    <fieldset>
+    <legend>Dados extras:</legend>
+        <label for="raças">Raça do Universo 7 preferida: </label>
+        <select name="raças" id="raças">
+            <option>Terráqueo</option>
+            <option>Sayajin</option>
+            <option>NameKuseijin</option>
+            <option>Androide</option>
+            <option>Outros</option>
+        </select><br>
+        <label for="trabalho">Trabalho: </label>
+        <input type="radio" name="Autonomo">
+        <label for="autonomo">Autonomo </label>    
+        <input type="radio" name="Empregado" >
+        <label for="empregado">Empregado CLT </label>       
+        <input type="radio" name="empresario">
+        <label for="empresario">Empresario</label>     
+        <input type="radio" name="Autonomo">
+        <label for="goku">Tipo Goku </label> 
+    </fieldset>
+</form>
+
+<form id="açai"">
+    <fieldset>
+        <legend>Seu açai é perfeito de que jeito?</legend>
+        <input type="checkbox" name="puro">
+        <label for="puro">Puro </label>    
+        <input type="checkbox" name="banana">
+        <label for="banana">Com Banana </label>    
+        <input type="checkbox" name="morango">
+        <label for="morango">Com Morango </label>    
+        <input type="checkbox" name="granola">
+        <label for="granola">Com Granola </label>    
+        <input type="checkbox" name="terra">
+        <label for="terra">Tem gosto de Terra </label>   
+    </fieldset>
+</form>
+
+<form id="tamanho"">
+    <fieldset>
+        <legend>Seu açai é perfeito de que jeito?</legend>
+        <input type="radio" name="500">
+        <label for="500">500ml </label>    
+        <input type="radio" name="300">
+        <label for="300">300ml</label>    
+        <input type="radio" name="100">
+        <label for="100">100ml </label>    
+        <input type="radio" name="casca">
+        <label for="casca">Casquinha </label>    
+        <input type="radio" name="parte">
+        <label for="parte">Qual parte do gosto de terra voce nao entendeu? </label>   
+    </fieldset>
+</form>
+
+<form id="observação"">
+    <fieldset>
+    <p>observações: </p>
+    <textarea id="obs" rows="8" cols="195" placeholder="Escreva suas observações...Eu gosto de açai porque..">
+    </textarea>
+    </fieldset>
+</form><br>
+<button type="submit">ENVIAR</button>
+<button type="submit">LIMPAR</button>
+</body>
+</html>

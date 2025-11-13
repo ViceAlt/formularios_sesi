@@ -1,0 +1,81 @@
+#exempl02
+{
+    resize: none;
+    padding: 12px;
+    background-color: lightblue;
+    color: rgb(78, 78, 224);
+    text-shadow: 5px black;
+}
+#exempl03 fieldset{
+    border: purple;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    color: purple;
+    font-family: Verdana;
+}
+
+#exempl03, input, textarea, option{
+    color: rgb(78, 78, 224);
+    font-family: Verdana;
+    resize: none;
+
+}
+
+h2, h3{
+    color: darkred;
+    font-family: Verdana;
+}
+
+hr{
+    border: solid 10px darkred;
+    border-radius: 15px;
+}
+
+#exempl01 input{
+    padding: 12px;
+    background-color: lightblue;
+    color: rgb(78, 78, 224);
+}
+
+#exempl01 button{
+    padding: 12px;
+    color: black;
+    background-color: gold;
+    font-family: Verdana;
+    border-radius: 10px;
+    border: 5px solid darkorchid;
+}
+
+#exempl04 input{
+    color: rgb(225, 18, 101);
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid rgb(225, 18, 101);
+    cursor: pointer;
+}
+
+#exempl04 input[type=submit]{
+    font-weight: bolder;
+    text-shadow: 20px black;
+    border-radius: 15px;
+    background-color: rgb(73, 45, 118);
+}
+
+#exempl05 legend{
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: bold;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+#exempl05 fieldset{
+    border: solid 5px goldenrod;
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: bold;
+    font-family: Verdana;
+    font-style: italic;
+}
+
