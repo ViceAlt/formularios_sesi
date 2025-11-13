@@ -1,0 +1,47 @@
+body{
+    background-color: indigo;
+    font-family: Arial;
+    color: white;
+    font-size: small;
+    font-weight: lighter;
+    background-image: url(/prova_pratica/imagens/goku.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 37%;
+}
+h2{
+    background-color: purple;
+    border: gold;
+    border-style: dotted;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+    color: goldenrod;
+    font-size: 20px;
+}
+fieldset{
+    border: gold;
+    border-style: solid;
+    padding: 10px;
+}
+#bar{
+    width: 60%;
+    padding: 5px;
+}
+#planeta{
+    width: 40%;
+    padding: 5px;
+}
+#raças{
+    width: 40%;
+    padding: 5px;
+}
+button{
+    border-radius: 5px;
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
